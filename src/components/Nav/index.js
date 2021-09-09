@@ -12,9 +12,7 @@ function Nav() {
                 <div className="collapse navbar-collapse" id="navbarColor03">
                     <ul className="navbar-nav me-auto">
                         <li className="nav-item">
-                            <a className="nav-link active" href="/aboutme" >About Me
-                                <span className="visually-hidden">(current)</span>
-                            </a>
+                            <a className="nav-link " href="/aboutme" >About Me</a>
                         </li>
                         <li classNames="nav-item">
                             <a className="nav-link" href="/portfolio" >Portfolio</a>
