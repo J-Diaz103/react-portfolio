@@ -1,13 +1,20 @@
-import './App.css';
-import "bootswatch/dist/slate/bootstrap.min.css";
+import "bootswatch/dist/lux/bootstrap.min.css";
 import Nav from "./components/Nav";
+import About from "./components/About"
+import Portfolio from "./components/Portfolio";
+import Resume from "./components/Resume";
 
 
 function App() {
   return (
     <div className="App">
       <Nav />
-      <h1> My React Portfolio</h1>
+      <div className='content'>
+        <About />
+        <Portfolio />
+        <Resume />
+      </div>
+
     </div>
   );
 }
