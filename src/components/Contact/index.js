@@ -46,7 +46,7 @@ const Contact = () => {
                 <div class="card-header">Contact Me</div>
                 <div class="card-body">
                     <p class="card-text">To get in touch with me send me a message and your Information and I'll be sure to get back to you ass soon as possible!</p>
-                    <form>
+                    <form onSubmit={handleSubmit}>
                         <div class="form-group">
                             <label for="exampleInputEmail1" class="form-label mt-4">Name</label>
                             <input
